@@ -17,9 +17,7 @@ const Shivani = () => {
                         HI, I'M <span className='text-yellow-400 '>SHIVANI!</span>
                     </h1>
                     <TextEffect />
-                    <p className='mt-[1.5rem] text-[18px] text-[#ffffff92]'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab maxime excepturi autem porro sunt voluptas quasi eveniet quas, quibusdam vitae ad veniam ipsum laboriosam temporibus, velit sit omnis, dolorum quaerat.
-                    </p>
+                    <p className='mt-[1.5rem] text-[42px] font-bold text-[#fff]'>    Your Vision ,<span className='text-yellow-400'> Our Creation      </span>          </p>
                     <div className='mt-[2rem] flex-col space-y-6  sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
                         <a href='/ShivaniMhatre.pdf' download="Shivani Mhatre Resume"><button className='px-[2rem]
                          hover:bg-yellow-400 

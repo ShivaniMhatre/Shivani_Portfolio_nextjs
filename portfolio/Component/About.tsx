@@ -15,17 +15,11 @@ const About = () => {
                     </h2>
                     <div className='mb-[3rem] flex items-center md:space-x-10'>
                         <span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
-                        <p className='text-[19px] text-slate-300 w-[80%]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex qui minus, veniam non id amet ipsa consequuntur fugit molestias autem soluta sunt omnis consequatur dolore eius temporibus nisi dicta excepturi.</p>
+                        <p className='text-[19px] text-slate-300 w-[80%]'>
+                        Highly motivated and detail-oriented Web Developer with a solid foundation in front-end and back-end technologies. Equipped with a comprehensive understanding of HTML, CSS, JavaScript, and popular frameworks.  Adept at translating project requirements into responsive and user-friendly web applications. Seeking an entry-level position to contribute technical skills, creativity, and a passion for web development to a dynamic team.
+</p>
                     </div>
-                    <button className='px-[2rem]
-                         hover:bg-yellow-400 
-                         transition-all duration-200 
-                         py-[1rem] 
-                         text-[18px] font-bold uppercase bg-[#55e6a5]
-                          text-black flex items-center space-x-2'>
-                        <p>Download Cv</p>
-                        <ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
-                    </button>
+                    
                 </div>
                 <div className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
                     <Image 
