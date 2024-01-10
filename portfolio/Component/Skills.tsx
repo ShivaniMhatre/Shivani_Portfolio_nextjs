@@ -1,6 +1,10 @@
 import React from 'react'
 import SkillsItem from './SkillsItem'
 import SkillLanguage from './SkillLanguage'
+import { GrReactjs } from "react-icons/gr";
+import { SiNginx } from "react-icons/si";
+import { CodeBracketSquareIcon } from '@heroicons/react/20/solid';
+import { RiDatabase2Fill } from "react-icons/ri";
 
 const Skills = () => {
     return (
