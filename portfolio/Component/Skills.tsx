@@ -17,7 +17,7 @@ const Skills = () => {
                     <div className='bg-blue-700   uppercase font-semibold text-center p-[2rem] mb-[3rem] '>
                         <GrReactjs className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
                         <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]'>React Js</h1>
-                        {/* <p className='text-[15px] text-[#d3fae8]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, dolore.</p> */}
+                        {/* <p className='text-[15px] text-[#d3fae8]'></p> */}
                     </div>
                     <div className='bg-green-700   uppercase font-semibold text-center p-[2rem] mb-[3rem] '>
                         <SiNginx  className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
