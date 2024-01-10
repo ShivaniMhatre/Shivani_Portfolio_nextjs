@@ -24,7 +24,7 @@ const HomePage = () => {
   const openNav = () => setNav(true);
   const closeNav = () => setNav(false);
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden" id='home'>
       <div>
         {/* Navbar Section */}
         <MobileNav nav={nav} closeNav={closeNav} />

@@ -2,7 +2,6 @@ import React from 'react'
 import Particle from './Particle'
 import TextEffect from './TextEffect'
 import Image from 'next/image'
-import { ArrowDownTrayIcon } from '@heroicons/react/20/solid'
 
 
 
@@ -19,7 +18,7 @@ const Shivani = () => {
                     <TextEffect />
                     <p className='mt-[1.5rem] text-[42px] font-bold text-[#fff]'>    Your Vision ,<span className='text-yellow-400'> Our Creation      </span>          </p>
                     <div className='mt-[2rem] flex-col space-y-6  sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
-                        <a href='/ShivaniMhatre.pdf' download="Shivani Mhatre Resume"><button className='px-[2rem]
+                        {/* <a href='/ShivaniMhatre.pdf' download="Shivani Mhatre Resume"><button className='px-[2rem]
                          hover:bg-yellow-400 
                          transition-all duration-200 
                          py-[1rem] 
@@ -30,7 +29,7 @@ const Shivani = () => {
                             <ArrowDownTrayIcon className='w-[4rem] h-[1.7rem] text-black' />
 
                         </button>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
                 <div className='w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center  rounded-full h-[500px]'>
