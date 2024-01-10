@@ -32,7 +32,7 @@ const Shivani = () => {
                         </a> */}
                     </div>
                 </div>
-                <div className='w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center  rounded-full h-[500px]'>
+                <div className='w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px] mt-[5rem]'>
                     <Image src='/images/user.jpg' alt='user' layout='fill' className="object-cover rounded-full" />
                 </div>
             </div>
