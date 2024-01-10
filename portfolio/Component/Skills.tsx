@@ -10,8 +10,16 @@ const Skills = () => {
             </h1>
             <div className='w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center'>
                 <div>
-                    <SkillsItem title="React Developer"/>
-                    <SkillsItem title="MERN Stack Developer"/>
+                    <div className='bg-blue-700   uppercase font-semibold text-center p-[2rem] mb-[3rem] '>
+                        <GrReactjs className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
+                        <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]'>React Js</h1>
+                        {/* <p className='text-[15px] text-[#d3fae8]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, dolore.</p> */}
+                    </div>
+                    <div className='bg-green-700   uppercase font-semibold text-center p-[2rem] mb-[3rem] '>
+                        <SiNginx  className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
+                        <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]'>Node Js</h1>
+                        {/* <p className='text-[15px] text-[#d3fae8]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, dolore.</p> */}
+                    </div>
                     <SkillLanguage
                     skill1="html"
                     skill2="css"
@@ -21,8 +29,16 @@ const Skills = () => {
                     level3="w-[50%]"/>
                 </div>
                 <div>
-                    <SkillsItem title="Next Js Developer"/>
-                    <SkillsItem title="Node Js Developer"/>
+                <div className='bg-red-700   uppercase font-semibold text-center p-[2rem] mb-[3rem] '>
+                        <CodeBracketSquareIcon className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
+                        <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]'>MERN STACK</h1>
+                        {/* <p className='text-[15px] text-[#d3fae8]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, dolore.</p> */}
+                    </div>
+                    <div className='bg-yellow-700   uppercase font-semibold text-center p-[2rem] mb-[3rem]'>
+                        <RiDatabase2Fill className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
+                        <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]'>DATABASE</h1>
+                        {/* <p className='text-[15px] text-[#d3fae8]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, dolore.</p> */}
+                    </div>
                     <SkillLanguage
                     skill1="React Js"
                     skill2="Next Js"
