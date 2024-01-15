@@ -8,7 +8,7 @@ const TextEffect = () => {
          // wait 1s before replacing "Mice" with "Hamsters"
         'WEB DEVELOPER',
         1500,
-        'WEB DEVELOPER',
+        'PROGRAMER',
         1500
       ]}
       speed={50}
