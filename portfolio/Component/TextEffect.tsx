@@ -5,10 +5,13 @@ const TextEffect = () => {
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-         // wait 1s before replacing "Mice" with "Hamsters"
+        'CODER',
+        1500, // wait 1s before replacing "Mice" with "Hamsters"
         'WEB DEVELOPER',
         1500,
-        'PROGRAMER',
+        'WEB DEVELOPER',
+        1500,
+        'PROGRAMMER',
         1500
       ]}
       speed={50}
