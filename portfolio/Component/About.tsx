@@ -19,7 +19,7 @@ const About = () => {
                             Highly motivated and detail-oriented Web Developer with a solid foundation in front-end and back-end technologies. Equipped with a comprehensive understanding of HTML, CSS, JavaScript, and popular frameworks.  Adept at translating project requirements into responsive and user-friendly web applications. Seeking an entry-level position to contribute technical skills, creativity, and a passion for web development to a dynamic team.
                         </p>
                     </div>
-                    <a href='/Shivani-Mhatre.pdf' download="Shivani Mhatre Resume"><button className='px-[2rem]
+                    <a href='/ShivaniMhatreResume.pdf' download="Shivani Mhatre Resume"><button className='px-[2rem]
                          hover:bg-yellow-400 
                          transition-all duration-200 
                          py-[1rem] 
